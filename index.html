@@ -19,6 +19,15 @@
         left: 0;
         z-index: -1;
         }
+        .form input, textarea{
+            display: block;
+            margin-bottom: 12px;
+            padding: 18px 35px;
+            color: #757575;
+            width: 100%;
+            border-radius: 5px;
+            border: none;
+        }
     </style>
 </head>
 <body>
@@ -36,8 +45,8 @@
                     <div class="navbar-middle hidden lg:flex">
                         <ul class="menu menu-horizontal px-1 text-xl text-white ">
                           <li class="hover:underline hover:decoration-sky-500/30"><a href="">Home</a></li>
-                          <li class="hover:underline hover:decoration-sky-500/30"><a href="">About</a></li>
                           <li class="hover:underline hover:decoration-sky-500/30"><a href="">Skills</a></li>
+                          <li class="hover:underline hover:decoration-sky-500/30"><a href="">About</a></li>
                           <li class="hover:underline hover:decoration-sky-500/30"><a href="">Projects</a></li>
                           <li class="hover:underline hover:decoration-sky-500/30"><a href="">Contact</a></li>
                         </ul>
@@ -48,8 +57,8 @@
                         </label>
                         <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-xl ">
                             <li><a href="">Home</a></li>
-                            <li><a href="">About</a></li>
                             <li><a href="">Skills</a></li>
+                            <li><a href="">About</a></li>
                             <li><a href="">Projects</a></li>
                             <li><a href="">Contact</a></li>
                         </ul>
@@ -73,9 +82,9 @@
     <!-- main -->
     <main class="max-w-screen-xl mx-auto mt-20">
         <!-- Skill Section -->
-        <section class="">
+        <section class="mb-10">
             <h3 class="text-6xl text-white p-8 text-center">My Skills & Education</h3>
-            <h3 class="text-6xl text-white p-8 text-center underline">Skills</h3>
+            <h3 class="text-6xl text-white p-4 text-center underline">Skills</h3>
             <div>
                 <div class="grid grid-cols-3 gap-6">
                     <div class="card bg-base-100 shadow-xl">
@@ -126,7 +135,7 @@
 
                 </div>
             </div>
-            <h3 class="text-6xl text-white p-8 text-center underline">Education</h3>
+            <h3 class="text-6xl text-white p-4 text-center underline">Education</h3>
             <div>
                 <div class="card bg-base-100 shadow-xl">
                     <div class="flex justify-content-around ">
@@ -155,8 +164,49 @@
 
         </section>
         <!-- about section -->
+        <section class="m-10">
+            <h3 class="text-6xl text-white p-8 text-center mb-4">About Me</h3>
+            <div class="flex justify-content-between gap-10 items-center">
+                <div class="">
+                    <img src="./image/img-1.jpg" width="100%" height="650px" alt="">
+                </div>
+                <div class="text-left text-white space-y-3">
+                    <h1 class="text-5xl text-bold">PRIYANKA DAS DIPA</h1>
+                    <h3 class="text-3xl">Web Developer</h3>
+                    <p class="text-xl">I am highly interested in web development and delivering my skills and innovative ideas as a Web Developer.I'm currently looking for an opportunity for higher study and a job as a web developer. An opportunity to work with experienced team members and leaders to enhance my working and communication skills in the workplace.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Section -->
         <section>
-            
+
+        </section>
+        <!-- contact Section -->
+        <section class="">
+            <h3 class="text-6xl text-white p-4 text-center">Contact Me</h3>
+            <div class="flex">
+                <div class="w-1/2">
+                    <h3 class="text-2xl text-white p-4 text-left">Contact With Me</h3>
+                    <p class="text-white">Email: priyankadipa9102@gmail.com</p>
+                </div>
+                <div class="w-1/2">
+                    <h3 class="text-2xl text-white p-4 text-left ">Let’s Message me</h3>
+                    <form action="" class="form inline">
+                        <input type="text" name="" placeholder="Your Name">
+                        <input type="email"  placeholder="Your Email" name="" id="">
+                        <textarea name="" id="" cols="20" rows="5">Message</textarea>
+                        <button class="btn mt-4 items-center">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div>
+                <h3 class="text-3xl text-white p-4 text-center ">One Click away...</h3>
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+
+            </div>
         </section>
     </main>
     <!-- footer -->
