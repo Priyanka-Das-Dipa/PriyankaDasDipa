@@ -37,18 +37,18 @@
     <header class="max-w-screen-xl mx-auto mb-20">
         <!-- navbar section -->
         <nav class="">
-            <div class="navbar">
+            <div class="navbar top-0 z-50">
                 <div class="navbar-start">
                   <a class="normal-case text-4xl font-semibold">Priyanka</a>
                 </div>
                 <div class="navbar-end">
                     <div class="navbar-middle hidden lg:flex">
-                        <ul class="menu menu-horizontal px-1 text-xl text-white ">
-                          <li class="hover:underline hover:decoration-sky-500/30"><a href="">Home</a></li>
-                          <li class="hover:underline hover:decoration-sky-500/30"><a href="">Skills</a></li>
-                          <li class="hover:underline hover:decoration-sky-500/30"><a href="">About</a></li>
-                          <li class="hover:underline hover:decoration-sky-500/30"><a href="">Projects</a></li>
-                          <li class="hover:underline hover:decoration-sky-500/30"><a href="">Contact</a></li>
+                        <ul class="menu menu-horizontal px-1 text-xl text-white">
+                          <li class="hover:underline hover:decoration-sky-500/30"><a href="#home">Home</a></li>
+                          <li class="hover:underline hover:decoration-sky-500/30"><a href="#skill">Skills</a></li>
+                          <li class="hover:underline hover:decoration-sky-500/30"><a href="#about">About</a></li>
+                          <li class="hover:underline hover:decoration-sky-500/30"><a href="#project">Projects</a></li>
+                          <li class="hover:underline hover:decoration-sky-500/30"><a href="#contact">Contact</a></li>
                         </ul>
                     </div>
                     <div class="dropdown dropdown-end">
@@ -56,18 +56,18 @@
                           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                         </label>
                         <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-xl ">
-                            <li><a href="">Home</a></li>
-                            <li><a href="">Skills</a></li>
-                            <li><a href="">About</a></li>
-                            <li><a href="">Projects</a></li>
-                            <li><a href="">Contact</a></li>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#skill">Skills</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#project">Projects</a></li>
+                            <li><a href="#contact">Contact</a></li>
                         </ul>
                       </div>
                 </div>
-              </div>
+            </div>
         </nav>
         <!-- banner section -->
-        <section class="flex justify-between items-center space-y-20 ">
+        <section class="flex justify-between items-center space-y-20 " id="home">
             <div class="space-y-5 text-white ">
                 <h3 class="text-4xl">Hi, I'm</h3>
                 <h1 class="text-6xl">Priyanka Das Dipa</h1>
@@ -82,9 +82,9 @@
     <!-- main -->
     <main class="max-w-screen-xl mx-auto mt-20">
         <!-- Skill Section -->
-        <section class="mb-10">
+        <section class="mb-10" id="skill">
             <h3 class="text-6xl text-white p-8 text-center">My Skills & Education</h3>
-            <h3 class="text-6xl text-white p-4 text-center underline">Skills</h3>
+            <h3 class="text-6xl text-white p-8 text-center underline">Skills</h3>
             <div>
                 <div class="grid grid-cols-3 gap-6">
                     <div class="card bg-base-100 shadow-xl">
@@ -135,7 +135,7 @@
 
                 </div>
             </div>
-            <h3 class="text-6xl text-white p-4 text-center underline">Education</h3>
+            <h3 class="text-6xl text-white p-8 text-center underline">Education</h3>
             <div>
                 <div class="card bg-base-100 shadow-xl">
                     <div class="flex justify-content-around ">
@@ -143,19 +143,19 @@
                             <h2 class="card-title"> B.Sc(Engg.) in CSE </h2>
                             <p>2019-2023</p>
                             <p>North East University Bangladesh</p>
-                            <a href="" class="hover:text-red-500">View Link</a>
+                            <a href="https://www.neub.edu.bd/" target="_blank"   class="hover:text-red-500">View Link</a>
                           </div>
                           <div class="card-body">
                             <h2 class="card-title">HSC in Science</h2>
                             <p>2016-2018</p>
                             <p>Scholarshome Girls College</p>
-                            <a href="" class="hover:text-red-500">View Link</a>
+                            <a href="https://www.facebook.com/scholarshomePathantula/" target="_blank" class="hover:text-red-500">View Link</a>
                           </div>
                           <div class="card-body">
                             <h2 class="card-title">SSC in Science</h2>
                             <p>2016</p>
                             <p>Osmani Medical High School</p>
-                            <a href="" class="hover:text-red-500">View Link</a>
+                            <a href="https://www.facebook.com/Osmani.scl.syl/" target="_blank" class="hover:text-red-500">View Link</a>
                           </div>
                     </div>
                 </div>
@@ -164,7 +164,7 @@
 
         </section>
         <!-- about section -->
-        <section class="m-10">
+        <section class="mt-10 pb-5 " id="about">
             <h3 class="text-6xl text-white p-8 text-center mb-4">About Me</h3>
             <div class="flex justify-content-between gap-10 items-center">
                 <div class="">
@@ -179,13 +179,13 @@
         </section>
 
         <!-- Project Section -->
-        <section>
+        <section id="project">
 
         </section>
         <!-- contact Section -->
-        <section class="">
-            <h3 class="text-6xl text-white p-4 text-center">Contact Me</h3>
-            <div class="flex">
+        <section class="my-5" id="contact">
+            <h3 class="text-6xl text-white p-4  text-center">Contact Me</h3>
+            <div class="flex my-8">
                 <div class="w-1/2">
                     <h3 class="text-2xl text-white p-4 text-left">Contact With Me</h3>
                     <p class="text-white">Email: priyankadipa9102@gmail.com</p>
@@ -195,16 +195,18 @@
                     <form action="" class="form inline">
                         <input type="text" name="" placeholder="Your Name">
                         <input type="email"  placeholder="Your Email" name="" id="">
-                        <textarea name="" id="" cols="20" rows="5">Message</textarea>
+                        <textarea name="" id="" cols="20" rows="5" placeholder="Type your Message">Message</textarea>
                         <button class="btn mt-4 items-center">Submit</button>
                     </form>
                 </div>
             </div>
             <div>
                 <h3 class="text-3xl text-white p-4 text-center ">One Click away...</h3>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
+                <div class="flex justify-center p-5">
+                    <a href="https://github.com/Priyanka-Das-Dipa" target="_blank"><img src="./image/icons/git.png" class="bg-black mt-4" alt=""></a>
+                    <a href="https://www.facebook.com/priyankadas.dipa.7" target="_blank"><img src="./image/icons/fb.png" alt=""></a>
+                    <a href="https://www.linkedin.com/in/priyanka-das-dipa-58327b285/" target="_blank"><img src="./image/icons/linkedin.png" alt=""></a>
+                </div>
 
             </div>
         </section>
