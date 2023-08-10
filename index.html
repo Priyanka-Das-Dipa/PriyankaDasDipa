@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priyanka_Das_Dipa</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://kit.fontawesome.com/d80a671ac0.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d80a671ac0.js" crossorigin="anonymous"></script>
+    <style>
+        .background{
+        height: 100vh;
+        width: 100%;
+        background: url(./image/bg-1.avif) no-repeat;
+        background-size: cover;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        }
+    </style>
+</head>
+<body>
+    <div class="background">
+    </div>
+    <!-- header -->
+    <header class="max-w-screen-xl mx-auto mb-20">
+        <!-- navbar section -->
+        <nav class="">
+            <div class="navbar">
+                <div class="navbar-start">
+                  <a class="normal-case text-4xl font-semibold">Priyanka</a>
+                </div>
+                <div class="navbar-end">
+                    <div class="navbar-middle hidden lg:flex">
+                        <ul class="menu menu-horizontal px-1 text-xl text-white ">
+                          <li class="hover:underline hover:decoration-sky-500/30"><a href="">Home</a></li>
+                          <li class="hover:underline hover:decoration-sky-500/30"><a href="">About</a></li>
+                          <li class="hover:underline hover:decoration-sky-500/30"><a href="">Skills</a></li>
+                          <li class="hover:underline hover:decoration-sky-500/30"><a href="">Projects</a></li>
+                          <li class="hover:underline hover:decoration-sky-500/30"><a href="">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown dropdown-end">
+                        <label tabindex="0" class="btn btn-ghost lg:hidden">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                        </label>
+                        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-xl ">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Skills</a></li>
+                            <li><a href="">Projects</a></li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
+                      </div>
+                </div>
+              </div>
+        </nav>
+        <!-- banner section -->
+        <section class="flex justify-between items-center space-y-20 ">
+            <div class="space-y-5 text-white ">
+                <h3 class="text-4xl">Hi, I'm</h3>
+                <h1 class="text-6xl">Priyanka Das Dipa</h1>
+                <p class="text-6xl">I am a Web Developer</p>
+                <button class="btn"><i class="fa-solid fa-download"></i>Download CV</button>
+            </div>
+            <div class="rounded-xl ">
+                <img src="./image/img-1.jpg" width="500px" height="700px" alt="">
+            </div>
+        </section>
+    </header>
+    <!-- main -->
+    <main class="max-w-screen-xl mx-auto mt-20">
+        <!-- Skill Section -->
+        <section class="">
+            <h3 class="text-6xl text-white p-8 text-center">My Skills & Education</h3>
+            <h3 class="text-6xl text-white p-8 text-center underline">Skills</h3>
+            <div>
+                <div class="grid grid-cols-3 gap-6">
+                    <div class="card bg-base-100 shadow-xl">
+                        <figure><img src="/image/icons/js.png" alt="" class="pt-5 pb-0"/></figure>
+                        <div class="card-body items-center ">
+                          <h2 class="card-title">HTML</h2>
+                          <progress class="progress w-56" value="85" max="100"></progress>
+                        </div>
+                    </div>
+                    <div class="card bg-base-100 shadow-xl">
+                        <figure><img src="/image/icons/js.png" alt="" class="pt-5 pb-0" /></figure>
+                        <div class="card-body items-center ">
+                          <h2 class="card-title">CSS</h2>
+                          <progress class="progress w-56" value="85" max="100"></progress>
+                        </div>
+                    </div>
+                    <div class="card bg-base-100 shadow-xl">
+                        <figure><img src="/image/icons/js.png" alt="" class="pt-5 pb-0" /></figure>
+                        <div class="card-body items-center ">
+                          <h2 class="card-title">JavaScript</h2>
+                          <progress class="progress w-56" value="20" max="100"></progress>
+                        </div>
+                    </div>
+                    <div class="card bg-base-100 shadow-xl">
+                        <figure><img src="/image/icons/react.png" alt="" class="pt-5 pb-0" /></figure>
+                        <div class="card-body items-center ">
+                          <h2 class="card-title">React</h2>
+                          <progress class="progress w-56" value="10" max="100"></progress>
+                        </div>
+                    </div>
+                    
+                    <div class="card bg-base-100 shadow-xl">
+                        <figure><img src="/image/icons/nodejs.png" alt="" class="pt-5 pb-0" /></figure>
+                        <div class="card-body items-center ">
+                          <h2 class="card-title">Node.js</h2>
+                          <progress class="progress w-56" value="10" max="100"></progress>
+                        </div>
+                    </div>
+                    <div class="card bg-base-100 shadow-xl">
+                        <figure><img src="/image/icons/mongo.png" alt="" class="pt-5 pb-0" /></figure>
+                        <div class="card-body items-center ">
+                          <h2 class="card-title">MongoDB</h2>
+                          <progress class="progress w-56" value="10" max="100"></progress>
+                        </div>
+                    </div>
+                </div>
+                <div>
+
+                </div>
+            </div>
+            <h3 class="text-6xl text-white p-8 text-center underline">Education</h3>
+            <div>
+                <div class="card bg-base-100 shadow-xl">
+                    <div class="flex justify-content-around ">
+                        <div class="card-body">
+                            <h2 class="card-title"> B.Sc(Engg.) in CSE </h2>
+                            <p>2019-2023</p>
+                            <p>North East University Bangladesh</p>
+                            <a href="" class="hover:text-red-500">View Link</a>
+                          </div>
+                          <div class="card-body">
+                            <h2 class="card-title">HSC in Science</h2>
+                            <p>2016-2018</p>
+                            <p>Scholarshome Girls College</p>
+                            <a href="" class="hover:text-red-500">View Link</a>
+                          </div>
+                          <div class="card-body">
+                            <h2 class="card-title">SSC in Science</h2>
+                            <p>2016</p>
+                            <p>Osmani Medical High School</p>
+                            <a href="" class="hover:text-red-500">View Link</a>
+                          </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+        <!-- about section -->
+        <section>
+            
+        </section>
+    </main>
+    <!-- footer -->
+    
+    <footer class="footer footer-center p-4 bg-base-300 text-base-content">
+        <div>
+            <p>© 2023 - All right reserved by Priyanka_Das_Dipa</p>
+        </div>
+    </footer>
+    
+    
+</body>
+</html>
